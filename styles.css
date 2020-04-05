@@ -1,0 +1,109 @@
+/* body */
+
+body {
+  font-family: "Gotu", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  line-height: 2;
+  max-width: 1250px;
+  margin-left: 245px;
+}
+
+/*header of the page*/
+
+#navbar header {
+  width: 245px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border: bold;
+  background-color: #f7f4f4;
+}
+
+/*navigation*/
+
+#navbar {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  width: 255px;
+  cursor: pointer;
+}
+
+#navbar a {
+  font-size: 1rem;
+  display: block;
+  padding: 20px 5px;
+  text-decoration: none;
+  border-top: 1px solid;
+  border-right: 1px solid;
+  border-radius: 5px;
+  color: black;
+  background-color: #cfffe3;
+  box-shadow: 6px 10px 12px grey;
+}
+
+#nav_chapter5 {
+  border-bottom: 1px solid;
+}
+
+/*media queries*/
+
+@media (max-width: 900px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/*bullets*/
+
+ul li {
+  list-style-type: none;
+}
+
+/*style guide for each section*/
+
+.main-section {
+  background-color: #f7f4f4;
+  border-radius: 8px;
+}
+
+.main-section header {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/*body*/
+
+p {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+li {
+  margin-right: 45px;
+  text-decoration: underline;
+}
+
+#Caffeine_Content_in_Matcha li {
+  text-decoration: none;
+  font-style: italic;
+  margin-left: 300px;
+  width: 500px;
+}
+
+#Preparing_Matcha {
+  padding-bottom: 1px;
+}
+
+/*source*/
+
+#source {
+  text-decoration: none;
+  font-size: 1rem;
+}
